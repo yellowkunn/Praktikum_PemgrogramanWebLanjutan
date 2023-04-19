@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
+}
+
+body {
+    background-color: #222;
+}
+
+
+
+.containerr {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 100%;
+}
+
+.containerr .box {
+    height: 383px;
+    width: 262px;
+    margin: 5px;
+}
+
+.containerr .box img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
